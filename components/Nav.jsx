@@ -50,7 +50,7 @@ const Nav= () => {
                 <button type='button' onClick={signOut} className='outline_btn'>
               Sign Out
             </button>
-            <Link href='/test'>
+            <Link href='/profile'>
               <Image
                 src= {session?.user.image}
                 // src={session?.user.image}
